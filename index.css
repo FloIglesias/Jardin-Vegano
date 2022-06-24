@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+}
+
+header {
+  padding: 10px;
+  text-align: center;
+  background-color: #581908;
+  color: white;
+}
+
+header h1 {
+  font-size: 8vw;
+  font-family: Allura;
+}
+
+header h3 {
+  font-size: 3vw;
+  font-family: roboto;
+}
+
+nav {
+  overflow: hidden;
+  background-color: #581908;
+}
+
+nav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+}
+
+nav a.right {
+  float: right;
+}
+
+nav a:hover {
+  background-color: #581908;
+  color: #21D19F;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+figure {
+  flex: 100%;
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+figure img {
+  max-width: 100%; 
+  max-height: 600px;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  background: white;
+}
+
+footer a {
+  color: #581908;
+}
+
+
+
+
+

@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+}
+
+header {
+  padding: 10px;
+  text-align: center;
+  background-color: #581908;
+  color: white;
+}
+
+header h1 {
+  font-size: 8vw;
+  font-family: Allura;
+}
+
+header h3 {
+  font-size: 3vw;
+  font-family: roboto;
+}
+
+nav {
+  overflow: hidden;
+  background-color: #581908;
+}
+
+nav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+}
+
+nav a.right {
+  float: right;
+}
+
+nav a:hover {
+  background-color: #581908;
+  color: #21D19F;
+}
+
+main h3 {
+  font-family: open sans;
+  color: #581908;
+  text-align: center;
+}
+  
+footer {
+  padding: 20px;
+  text-align: center;
+  background: white;
+}
+
+footer a {
+  color: #581908;
+}
+
+.contenedor {
+  position: relative;
+  width: 50%;
+  overflow:hidden;
+  padding-top: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contenedor iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .contenedor {
+      min-height: 200px;
+      min-width: 400px;
+  }
+}
+
+
+.output {
+  background: #eee;
+}
+  
+.mapouter {
+  text-align: center;
+}
+
+
+  
+  
+ 
